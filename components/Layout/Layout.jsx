@@ -29,7 +29,7 @@ function Layout({ children, menu, page, signup, neighborhoods, show, slug }) {
         </section>
         <section className={styles.right}>
           <Search />
-          {slug ? <Submenu menu={menu} page={page} /> : null}
+          {page && slug ? <Submenu menu={menu} page={page} /> : null}
           <EmailSignup content={signup} />
 
           <iframe
