@@ -7,10 +7,18 @@ import { Socials } from "../components/Socials"
 import styles from "../styles/Menu.module.css"
 
 export const Menu = ({ items }) => {
-  const defaultMenuState = global.window
+  const isDesktop = global.window
     ? global.window.innerWidth > 768
     : false
-  const [isMenuExpanded, setMenuExpanded] = useState(defaultMenuState)
+
+
+  const [isMenuExpanded, setMenuExpanded] = useState(isDesktop)
+
+  const handleMenuClick = () => {
+    if (!isDesktop) {
+      setMenuExpanded(false)
+    }
+  }
 
   return (
     <div className={styles.wrapper}>
@@ -56,7 +64,7 @@ export const Menu = ({ items }) => {
         </div>
       </div>
       <div className={styles.bar}>
-        <Pages items={items} ulStyle={styles.menu} display={isMenuExpanded} closeMenu={() => setMenuExpanded(false)} />
+        <Pages items={items} ulStyle={styles.menu} display={isMenuExpanded} closeMenu={handleMenuClick} isDesktop={isDesktop} />
       </div>
     </div>
   )
