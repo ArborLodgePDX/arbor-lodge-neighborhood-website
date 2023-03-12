@@ -52,6 +52,14 @@
 
 .landUseMargin {
   margin-top: 50px;
+  height: 80%;
+}
+.landUseLink {
+  padding: 5px 0 5px 0;
+}
+.landUseTable {
+  margin: 5px 0 5px 0;
+  height: 800px;
 }
 
 @media screen and (max-width: 1000px) {  

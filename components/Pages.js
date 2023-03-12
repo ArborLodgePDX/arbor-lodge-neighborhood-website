@@ -1,11 +1,11 @@
 import Link from "next/link"
 
-export const Pages = ({ items, ulStyle, display }) =>
+export const Pages = ({ items, ulStyle, display, closeMenu }) =>
   display ? (
     <ul className={ulStyle}>
       {items.map((item) => (
-        <li key={item.url} className="menu-item">
-          <Link href={`/${item.url}`}>
+        <li key={item.url} className="menu-item" onClick={closeMenu}>
+          <Link href={`/${item.url}`} >
             <a className="menu-link">
               <span className="menu-link-text">{item.title}</span>
             </a>
