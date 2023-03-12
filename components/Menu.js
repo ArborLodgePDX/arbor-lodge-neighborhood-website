@@ -56,7 +56,7 @@ export const Menu = ({ items }) => {
         </div>
       </div>
       <div className={styles.bar}>
-        <Pages items={items} ulStyle={styles.menu} display={isMenuExpanded} />
+        <Pages items={items} ulStyle={styles.menu} display={isMenuExpanded} closeMenu={() => setMenuExpanded(false)} />
       </div>
     </div>
   )
