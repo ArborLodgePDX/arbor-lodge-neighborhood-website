@@ -52,7 +52,7 @@
 
 .landUseMargin {
   margin-top: 50px;
-  height: 80%;
+  height: 90%;
 }
 .landUseLink {
   padding: 5px 0 5px 0;
@@ -75,7 +75,7 @@
     border: none;
   }
   .left {
-    max-width: 96%;
+    width: 96%;
     margin: 0 auto;
   }
   .right {
