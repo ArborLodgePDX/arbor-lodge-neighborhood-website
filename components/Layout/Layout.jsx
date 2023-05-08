@@ -14,7 +14,7 @@ function Layout({ children, menu, page, signup, neighborhoods, show, slug, hasSi
     <div>
       <Head>
         <title>
-          {`${page && page.title}`}
+          {page?.title ? `${page && page.title}` : "Arbor Lodge Neighborhood, Portland OR"}
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
