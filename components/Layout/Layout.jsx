@@ -14,7 +14,7 @@ function Layout({ children, menu, page, signup, neighborhoods, show, slug, hasSi
     <div>
       <Head>
         <title>
-          {(page && page.seoTitle) || "Arbor Lodge Neighborhood, Portland OR"}
+          {page?.title ? `${page && page.title}` : "Arbor Lodge Neighborhood, Portland OR"}
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -38,7 +38,7 @@ function Layout({ children, menu, page, signup, neighborhoods, show, slug, hasSi
               style={{ "border": "solid 1px #777" }}
               width="100%"
               height="350"
-              frameborder="0"
+              frameBorder="0"
             />
             <br /><br />
             <iframe
