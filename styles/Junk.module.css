@@ -1,0 +1,87 @@
+
+.header {
+  font-size: 48px;
+  width: 250px;
+}
+
+.headerBold {
+  display: block;
+  font-weight: bolder;
+}
+
+/* MAP */
+
+.mapContainer {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  border: 4px dashed #B2CE81;
+  color: #156124;
+}
+
+.mapTitleSection {
+  position: absolute;
+  top: -0.1em;
+  left: 1em;
+}
+
+.mapTitle {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.mapDonate {
+  font-weight: 500;
+  margin: 0;
+  font-size: 28px;
+  width:200px;
+}
+
+.mapSchool {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  color: #156124;
+  font-weight: 500;
+  margin: 0;
+  font-size: 28px;
+  width:200px;
+}
+
+.mapImg {
+  width: 100%;
+}
+
+
+.when {
+  padding: 10px 0;
+}
+
+
+@media screen and (max-width: 1000px) {  
+
+  .mapTitle {
+    font-weight: 900;
+    font-size: 28px;
+  }
+
+  .mapDonate {
+    font-weight: 500;
+    margin: 0;
+    font-size: 18px;
+    width:150px;
+  }
+
+  .mapSchool {
+    position: absolute;
+    right: 0em;
+    top: 4em;
+    color: #156124;
+    font-weight: 500;
+    margin: 0;
+    font-size: 12px;
+    width:100px;
+    line-height: 1em;
+  }
+
+}
