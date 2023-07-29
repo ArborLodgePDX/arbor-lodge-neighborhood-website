@@ -73,12 +73,18 @@ function junk({ menu, neighborhoods, signup }) {
             Chief Joseph
             Elementary School
           </p>
-          <img className={styles.mapImg} src="arbor-lodge-park.jpg" alt="arbor lodge park map" />
+          <img className={styles.mapImg} src="https://res.cloudinary.com/dtqlulaog/image/upload/v1690655686/alna/wnlekhcondzpbxv3vjfv.png" alt="arbor lodge park map" />
         </div>
 
         <div>
           <p>
             Join us for this year's community waste collection event and drop off your unwanted household items.
+          </p>
+          <p>
+            The even will be located on North Delaware ave. between North Saratoga Street and North Dekum Street.
+          </p>
+          <p>
+            It will happen on September 30th between 10:00am and 2:00pm.
           </p>
           <p>
             This event is a collaborative effort by the Arbor Lodge, Kenton, and Overlook Neighborhood Associations, made possible by generous donations from our sponsors.

@@ -92,6 +92,9 @@
 
 
 @media screen and (max-width: 1000px) {  
+  .heading {
+    flex-direction: column;
+  }
 
   .mapTitle {
     font-weight: 900;
@@ -116,6 +119,11 @@
     width:100px;
     line-height: 1em;
     display: none;
+  }
+
+  .logoImg > div {
+    width: 40%;
+    padding: 1em;
   }
 
 }
