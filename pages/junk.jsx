@@ -7,7 +7,6 @@ import Layout from "../components/Layout";
 import styles from "../styles/Junk.module.css"
 
 const logos = [
-  { img: 'b2xm2qqfjn3a4ioeau93', link: '', alt: 'bridge building' },
   { img: 'dwdc7ahmqkjmf8dpgbag', link: 'https://www.elburritoazteca.com', alt: 'El Burrito Azteca' },
   { img: 'l8jrwofoz0kynxngydgi', link: 'https://www.kentonstationportland.com', alt: 'Kenton Station' },
   { img: 'fh0m4od7vjpn6walytql', link: 'https://www.originalsexycoffee.com', alt: 'Grind House Coffee' },
@@ -45,10 +44,11 @@ function junk({ menu, neighborhoods, signup }) {
             <div>September 30th,  2023</div>
             <div>10:00am to 2:00pm</div>
           </div>
-
-          <button className={styles.volunteerBtn}>
-            Volunteer
-          </button>
+          <a href="https://www.signupgenius.com/go/10C084EAEAE2AA2FFC70-arbor" alt="sign up to volunteer">
+            <button className={styles.volunteerBtn}>
+              Volunteer
+            </button>
+          </a>
         </div>
 
       </div>
@@ -66,7 +66,7 @@ function junk({ menu, neighborhoods, signup }) {
               Arbor Lodge Park
             </h2>
             <p className={styles.mapDonate}>
-              $10 Donation per wast drop
+              $10 Donation per waste drop
             </p>
           </div>
           <p className={styles.mapSchool}>
@@ -141,7 +141,7 @@ function junk({ menu, neighborhoods, signup }) {
             Concrete, constrictors loads, any foam or asbestos
           </li>
           <li>
-            Car batteries
+            Batteries
           </li>
           <li>
             Demolition debris

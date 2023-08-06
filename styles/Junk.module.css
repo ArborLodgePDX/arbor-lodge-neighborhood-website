@@ -18,6 +18,7 @@
 .mapContainer {
   position: relative;
   width: 100%;
+  min-height: 250px;
   padding: 5px;
   border: 4px dashed #B2CE81;
   color: #156124;
@@ -38,7 +39,7 @@
   font-weight: 500;
   margin: 0;
   font-size: 28px;
-  width:200px;
+  width:230px;
 }
 
 .mapSchool {
