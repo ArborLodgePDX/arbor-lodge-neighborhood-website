@@ -8,7 +8,7 @@ import styles from "../styles/Junk.module.css"
 
 const logos = [
   { img: 'dwdc7ahmqkjmf8dpgbag', link: 'https://www.elburritoazteca.com', alt: 'El Burrito Azteca' },
-  { img: 'l8jrwofoz0kynxngydgi', link: 'https://www.kentonstationportland.com', alt: 'Kenton Station' },
+  // { img: 'l8jrwofoz0kynxngydgi', link: 'https://www.kentonstationportland.com', alt: 'Kenton Station' },
   { img: 'fh0m4od7vjpn6walytql', link: 'https://www.originalsexycoffee.com', alt: 'Grind House Coffee' },
   { img: 'c6kueus00zmp3gwgvkay', link: 'https://www.ridwell.com', alt: 'Ridwell' },
   { img: 'dfdoylhblqm4gzmzfvwd', link: 'https://www.agilyx.com', alt: 'Agilyx' },
