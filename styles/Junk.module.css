@@ -1,0 +1,130 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.header {
+  font-size: 48px;
+  width: 250px;
+}
+
+.headerBold {
+  display: block;
+  font-weight: bolder;
+}
+
+/* MAP */
+
+.mapContainer {
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  padding: 5px;
+  border: 4px dashed #B2CE81;
+  color: #156124;
+}
+
+.mapTitleSection {
+  position: absolute;
+  top: -0.1em;
+  left: 1em;
+}
+
+.mapTitle {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.mapDonate {
+  font-weight: 500;
+  margin: 0;
+  font-size: 28px;
+  width:230px;
+}
+
+.mapSchool {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  color: #156124;
+  font-weight: 500;
+  margin: 0;
+  font-size: 28px;
+  width:200px;
+}
+
+.mapImg {
+  width: 100%;
+}
+
+
+.when {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* padding: 10px 0; */
+  font-size: larger;
+  height: auto;
+}
+.volunteerBtn {
+  background-color: #D7E6DC;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.textBold {
+  font-weight: 900;
+  color: red;
+}
+
+.logoImg {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 4;
+  flex-shrink: 0;
+  width: 100%;
+
+}
+
+.logoImg > div {
+  width: 30%;
+  padding: 1em;
+}
+
+
+@media screen and (max-width: 1000px) {  
+  .heading {
+    flex-direction: column;
+  }
+
+  .mapTitle {
+    font-weight: 900;
+    font-size: 28px;
+  }
+
+  .mapDonate {
+    font-weight: 500;
+    margin: 0;
+    font-size: 18px;
+    width:150px;
+  }
+
+  .mapSchool {
+    position: absolute;
+    right: 0em;
+    top: 4em;
+    color: #156124;
+    font-weight: 500;
+    margin: 0;
+    font-size: 12px;
+    width:100px;
+    line-height: 1em;
+    display: none;
+  }
+
+  .logoImg > div {
+    width: 40%;
+    padding: 1em;
+  }
+
+}
