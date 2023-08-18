@@ -8,11 +8,9 @@ import styles from "../styles/Junk.module.css"
 
 const logos = [
   { img: 'dwdc7ahmqkjmf8dpgbag', link: 'https://www.elburritoazteca.com', alt: 'El Burrito Azteca' },
-  // { img: 'l8jrwofoz0kynxngydgi', link: 'https://www.kentonstationportland.com', alt: 'Kenton Station' },
   { img: 'fh0m4od7vjpn6walytql', link: 'https://www.originalsexycoffee.com', alt: 'Grind House Coffee' },
   { img: 'c6kueus00zmp3gwgvkay', link: 'https://www.ridwell.com', alt: 'Ridwell' },
   { img: 'dfdoylhblqm4gzmzfvwd', link: 'https://www.agilyx.com', alt: 'Agilyx' },
-  { img: 'wzicmwdjwdbbyt981gdw', link: 'https://www.lesschwab.com', alt: 'Les Schwab' },
   { img: 'm0ea712r1zlvrp2olreh', link: 'https://www.oregonmetro.gov', alt: 'Metro' },
   { img: 'm3hmcnn78fctprwbvnqa', link: 'https://www.finopdx.com', alt: 'Pizza Fino' },
   { img: 'fmriqs1ymnw3qot0vljv', link: 'https://www.junkluggers.com', alt: 'The JunkLuggers' },
@@ -46,7 +44,7 @@ function junk({ menu, neighborhoods, signup }) {
           </div>
           <a href="https://www.signupgenius.com/go/10C084EAEAE2AA2FFC70-arbor" alt="sign up to volunteer">
             <button className={styles.volunteerBtn}>
-              Volunteer
+              Volunteer Sign Up
             </button>
           </a>
         </div>
@@ -73,7 +71,7 @@ function junk({ menu, neighborhoods, signup }) {
             Chief Joseph
             Elementary School
           </p>
-          <img className={styles.mapImg} src="https://res.cloudinary.com/dtqlulaog/image/upload/v1690655686/alna/wnlekhcondzpbxv3vjfv.png" alt="arbor lodge park map" />
+          <img className={styles.mapImg} src="https://res.cloudinary.com/dtqlulaog/image/upload/v1692332870/alna/ipl6jq6d57op9kmv8xar.png" alt="arbor lodge park map" />
         </div>
 
         <div>
