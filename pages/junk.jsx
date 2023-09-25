@@ -79,7 +79,7 @@ function junk({ menu, neighborhoods, signup }) {
             Join us for this year's community waste collection event and drop off your unwanted household items.
           </p>
           <p>
-            The even will be located on North Delaware ave. between North Saratoga Street and North Dekum Street.
+            The event will be located on North Delaware ave. between North Saratoga Street and North Dekum Street.
           </p>
           <p>
             It will happen on September 30th between 10:00am and 2:00pm.
