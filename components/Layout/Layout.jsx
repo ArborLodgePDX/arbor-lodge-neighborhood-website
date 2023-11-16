@@ -34,7 +34,7 @@ function Layout({ children, menu, page, signup, neighborhoods, show, slug, hasSi
             <EmailSignup content={signup} />
 
             <iframe
-              src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&mode=AGENDA&showPrint=0&showTz=1&showCalendars=0&showTabs=0&showTitle=0&src=cHVibGljQGFyYm9ybG9kZ2VuZWlnaGJvcmhvb2QuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043"
+              src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&mode=AGENDA&src=MDg4ZjQ2ZDk2YTk5YjUzZmIzYWJlZGVjNGJiZmE4ZjY0YTlkYmM5MGQ2ZjI0NTNiMWE2MWZlOTU5ZjZkNGY2ZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA"
               style={{ "border": "solid 1px #777" }}
               width="100%"
               height="350"
