@@ -18,6 +18,11 @@ module.exports = {
         destination: 'https://docs.google.com/forms/d/e/1FAIpQLScccKWR3GQDFQwvDLvRGmFEoj-wDqHfLP0q2ReF3lIs4a0PQQ/viewform',
         permanent: true,
       },
+      {
+        source: '/newsletter',
+        destination: 'https://arborlodgepdx.org/post/2KmLrMBkPjQV63QklvwkT3/05/10/2024/Arbor-Lodge-Newsletter-May-2024',
+        permanent: true,
+      },
     ];
   },
 };
