@@ -22,7 +22,7 @@ export default function Home({
   neighborhoods,
   signup,
 }) {
-  const disableSideBar = slug === "land-use" || slug === "calendar"
+  const disableSideBar = slug === "land-use" || slug === "calendar";
   return (
     <>
       <Layout
@@ -50,15 +50,11 @@ export default function Home({
             <PageText title={page.title} content={page.pageContent} />
           )}
 
-        {slug === "land-use" && (
-          <LandUse />
-        )}
-        {slug === "calendar" && (
-          <Calendar />
-        )}
+        {slug === "land-use" && <LandUse />}
+        {slug === "calendar" && <Calendar />}
 
         {!page && ( // not found page, display 404
-          <h1>Sorry, there doesn't seem to be anything at this URL.</h1>
+          <h1>Sorry, there doesn&apos;t seem to be anything at this URL.</h1>
         )}
       </Layout>
     </>

@@ -126,7 +126,7 @@ function junk({ menu, neighborhoods, signup }) {
 
         <div>
           <p>
-            Join us for this year's community waste collection event and drop
+            Join us for this year\'s community waste collection event and drop
             off your unwanted household items.
           </p>
           <p>
