@@ -1,24 +1,21 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
-import Image from "next/image"
-import Link from "next/link"
-import { Pages } from "./Pages"
-import { Socials } from "../components/Socials"
-import styles from "../styles/Menu.module.css"
+import Image from "next/image";
+import Link from "next/link";
+import { Pages } from "./Pages";
+import { Socials } from "../components/Socials";
+import styles from "../styles/Menu.module.css";
 
 export const Menu = ({ items }) => {
-  const isDesktop = global.window
-    ? global.window.innerWidth > 768
-    : false
+  const isDesktop = global.window ? global.window.innerWidth > 768 : false;
 
-
-  const [isMenuExpanded, setMenuExpanded] = useState(isDesktop)
+  const [isMenuExpanded, setMenuExpanded] = useState(isDesktop);
 
   const handleMenuClick = () => {
     if (!isDesktop) {
-      setMenuExpanded(false)
+      setMenuExpanded(false);
     }
-  }
+  };
 
   return (
     <div className={styles.wrapper}>
@@ -36,6 +33,16 @@ export const Menu = ({ items }) => {
         <div className={styles.flexExpander} />
         <div className={styles.headerButtons}>
           <div className={styles.headerButton}>
+            <Link href="/waste-collection">
+              <a>
+                <span
+                  className={`${styles.buttonIcon} ${styles.wastecollection}`}
+                />
+                <span className={styles.headerButtonText}>Collecton Event</span>
+              </a>
+            </Link>
+          </div>
+          <div className={styles.headerButton}>
             <Link href="/donations">
               <a>
                 <span className={`${styles.buttonIcon} ${styles.donate}`} />
@@ -43,6 +50,7 @@ export const Menu = ({ items }) => {
               </a>
             </Link>
           </div>
+
           <div className={styles.headerButton}>
             <a
               href="https://arborlodgeneighborhood.us3.list-manage.com/subscribe/post?u=ebf29143f036362e0c576e6ed&amp;id=e786761a57"
@@ -64,8 +72,14 @@ export const Menu = ({ items }) => {
         </div>
       </div>
       <div className={styles.bar}>
-        <Pages items={items} ulStyle={styles.menu} display={isMenuExpanded} closeMenu={handleMenuClick} isDesktop={isDesktop} />
+        <Pages
+          items={items}
+          ulStyle={styles.menu}
+          display={isMenuExpanded}
+          closeMenu={handleMenuClick}
+          isDesktop={isDesktop}
+        />
       </div>
     </div>
-  )
-}
+  );
+};

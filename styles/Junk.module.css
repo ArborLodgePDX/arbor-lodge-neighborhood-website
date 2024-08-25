@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 .header {
   font-size: 48px;
@@ -20,7 +21,7 @@
   width: 100%;
   min-height: 250px;
   padding: 5px;
-  border: 4px dashed #B2CE81;
+  border: 4px dashed #b2ce81;
   color: #156124;
 }
 
@@ -39,7 +40,7 @@
   font-weight: 500;
   margin: 0;
   font-size: 28px;
-  width:230px;
+  width: 230px;
 }
 
 .mapSchool {
@@ -50,13 +51,12 @@
   font-weight: 500;
   margin: 0;
   font-size: 28px;
-  width:200px;
+  width: 200px;
 }
 
 .mapImg {
   width: 100%;
 }
-
 
 .when {
   display: flex;
@@ -67,7 +67,7 @@
   height: auto;
 }
 .volunteerBtn {
-  background-color: #D7E6DC;
+  background-color: #d7e6dc;
   font-weight: 500;
   cursor: pointer;
 }
@@ -83,7 +83,6 @@
   flex-grow: 4;
   flex-shrink: 0;
   width: 100%;
-
 }
 
 .logoImg > div {
@@ -91,8 +90,7 @@
   padding: 1em;
 }
 
-
-@media screen and (max-width: 1000px) {  
+@media screen and (max-width: 1203px) {
   .heading {
     flex-direction: column;
   }
@@ -106,7 +104,7 @@
     font-weight: 500;
     margin: 0;
     font-size: 18px;
-    width:150px;
+    width: 150px;
   }
 
   .mapSchool {
@@ -117,7 +115,7 @@
     font-weight: 500;
     margin: 0;
     font-size: 12px;
-    width:100px;
+    width: 100px;
     line-height: 1em;
     display: none;
   }
@@ -126,5 +124,4 @@
     width: 40%;
     padding: 1em;
   }
-
 }
