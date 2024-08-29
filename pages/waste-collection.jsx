@@ -29,6 +29,11 @@ const logos = [
     link: "https://www.posiescafe.com",
     alt: "Posies cafe",
   },
+  {
+    img: "c6kueus00zmp3gwgvkay",
+    link: "https://www.ridwell.com/",
+    alt: "Ridwell",
+  },
   // update images
   {
     img: "j5ubprrdta6rplay7hie",
