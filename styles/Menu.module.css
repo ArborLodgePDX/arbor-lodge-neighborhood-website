@@ -68,9 +68,15 @@
   -webkit-mask: url(/donate.svg) no-repeat center;
   mask: url(/donate.svg) no-repeat center;
 }
+
 .wastecollection {
   -webkit-mask: url(/wastecollection.svg) no-repeat center;
   mask: url(/wastecollection.svg) no-repeat center;
+}
+
+.signpost {
+  -webkit-mask: url(/signalt.svg) no-repeat center;
+  mask: url(/signalt.svg) no-repeat center;
 }
 
 .toggle {

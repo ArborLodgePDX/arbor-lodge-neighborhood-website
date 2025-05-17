@@ -33,6 +33,13 @@ export const Menu = ({ items }) => {
         <div className={styles.flexExpander} />
         <div className={styles.headerButtons}>
           <div className={styles.headerButton}>
+            <Link href="/yardsale">
+              <a>
+                <span className={styles.headerButtonText}>Yardsale</span>
+              </a>
+            </Link>
+          </div>
+          <div className={styles.headerButton}>
             <Link href="/donations">
               <a>
                 <span className={`${styles.buttonIcon} ${styles.donate}`} />
