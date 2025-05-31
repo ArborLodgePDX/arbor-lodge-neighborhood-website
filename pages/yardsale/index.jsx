@@ -34,9 +34,6 @@ export default function yardsale({ menu, neighborhoods, signup }) {
               <div>June 14th and 15th, 2025</div>
               <div>Saturday and Sunday</div>
             </div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfshNVpRfBR8Fi35vM-bNmG4eabKTTHr9SPCabX49JAZc2fXA/viewform?pli=1">
-              <button className={styles.volunteerBtn}>Signup Form</button>
-            </a>
           </div>
         </div>
         <div>
@@ -47,13 +44,12 @@ export default function yardsale({ menu, neighborhoods, signup }) {
             unwanted items, find new treasures, and connect with your community.
           </p>
 
-          <p>To add your house to the yardsale map fill out the form below.</p>
           <div>
             <iframe
+              src="https://www.google.com/maps/d/embed?mid=1GsoUJBwk4KRHo-C8Xz3w3_R4WUhsS1E&ehbc=2E312F"
               width="100%"
-              height="1900px"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfshNVpRfBR8Fi35vM-bNmG4eabKTTHr9SPCabX49JAZc2fXA/viewform?pli=1"
-            />
+              height="700"
+            ></iframe>
           </div>
         </div>
       </Layout>
