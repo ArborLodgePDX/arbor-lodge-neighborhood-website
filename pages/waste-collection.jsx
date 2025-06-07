@@ -101,7 +101,7 @@ function junk({ menu, neighborhoods, signup }) {
 
         <div className={styles.when}>
           <div>
-            <div>October 12th, 2024</div>
+            <div>September 27th, 2025</div>
             <div>10:00am to 2:00pm</div>
           </div>
           <a
