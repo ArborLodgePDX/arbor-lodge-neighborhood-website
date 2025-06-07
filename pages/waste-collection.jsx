@@ -138,7 +138,7 @@ function junk({ menu, neighborhoods, signup }) {
             The event will be located on North Delaware ave. between North
             Saratoga Street and North Dekum Street.
           </p>
-          <p>It will happen on October 12th between 10:00am and 2:00pm.</p>
+          <p>It will happen on September 27th between 10:00am and 2:00pm.</p>
           <p>
             This event is a collaborative effort by the Arbor Lodge, Kenton, and
             Overlook Neighborhood Associations, made possible by generous
