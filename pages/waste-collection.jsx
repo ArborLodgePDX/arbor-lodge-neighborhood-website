@@ -41,19 +41,9 @@ const logos = [
     alt: "Friends of ours",
   },
   {
-    img: "ivqfme3mnkvocvpcq0le",
-    link: "https://twostrokecoffeeco.com/",
-    alt: "Cycle Master Coffee",
-  },
-  {
     img: "baula6zl2diqffsbkrin",
     link: "https://futuracoffeeroasters.com/",
     alt: "Futura Coffee",
-  },
-  {
-    img: "pugblekxnzwmo5qkswnv",
-    link: "https://www.heavenlydonut.com/",
-    alt: "Heavenly Donuts",
   },
   {
     img: "lhre3zetd0xtffk1qoxp",
@@ -80,6 +70,16 @@ const logos = [
     link: "https://www.dogoodmultnomah.org/",
     alt: "Do Good Multnomah",
   },
+  {
+    img: "nnwgulsb2pyxvyjih1cp",
+    link: "https://www.flannerysdropbox.com/",
+    alt: "Flannery's Drop Box Service, Inc.Do Good Multnomah",
+  },
+  {
+    img: "pa8bay79irmyc8mtmi3m",
+    link: "https://www.miburritopdx.com/",
+    alt: "Mi Burriot",
+  },
 ];
 
 function junk({ menu, neighborhoods, signup }) {
@@ -102,10 +102,13 @@ function junk({ menu, neighborhoods, signup }) {
         <div className={styles.when}>
           <div>
             <div>September 27th, 2025</div>
-            <div>10:00am to 2:00pm</div>
+            <div>10:00am to 2:00pm - Styrofoam collection</div>
+            <div>
+              10:00am to 3:00pm - All other waste collection and donations
+            </div>
           </div>
           <a
-            href="https://www.signupgenius.com/go/10C084BAFA92CA4FBC61-50919370-community"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfY1bEndQpsUPEuBwa5f_szez_IFVJd3DDiyGvijJXzVhN5dg/viewform"
             alt="sign up to volunteer"
           >
             <button className={styles.volunteerBtn}>Volunteer Sign Up</button>
@@ -114,7 +117,7 @@ function junk({ menu, neighborhoods, signup }) {
       </div>
       <div>
         <h2>Where:</h2>
-        <div>North Delaware Ave. Portland Oregon</div>
+        <div>North Delaware Ave. at Arborlodge Park</div>
 
         <div className={styles.mapContainer}>
           <div className={styles.mapTitleSection}>
@@ -140,9 +143,9 @@ function junk({ menu, neighborhoods, signup }) {
           </p>
           <p>It will happen on September 27th between 10:00am and 2:00pm.</p>
           <p>
-            This event is a collaborative effort by the Arbor Lodge, Kenton, and
-            Overlook Neighborhood Associations, made possible by generous
-            donations from our sponsors.
+            This event is a collaborative effort by the Arbor Lodge, Kenton,
+            Overlook and Piedmont Neighborhood Associations, made possible by
+            generous donations from our sponsors.
           </p>
           <p>
             This year The Arbor Lodge Shelter run by
@@ -175,7 +178,6 @@ function junk({ menu, neighborhoods, signup }) {
             Furniture - <span className={styles.textBold}>In good shape</span>
           </li>
           <li>House hold items</li>
-          <li>Tires</li>
         </ul>
       </div>
       <div>
