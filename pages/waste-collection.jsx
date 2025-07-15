@@ -103,9 +103,7 @@ function junk({ menu, neighborhoods, signup }) {
           <div>
             <div>September 27th, 2025</div>
             <div>10:00am to 2:00pm - Styrofoam collection</div>
-            <div>
-              10:00am to 3:00pm - All other waste collection and donations
-            </div>
+            <div>10:00am to 3:00pm - All other collections</div>
           </div>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfY1bEndQpsUPEuBwa5f_szez_IFVJd3DDiyGvijJXzVhN5dg/viewform"
