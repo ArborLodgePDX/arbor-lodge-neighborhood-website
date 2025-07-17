@@ -148,14 +148,14 @@ function junk({ menu, neighborhoods, signup }) {
           </p>
           <p>
             <strong> Community Warehouse </strong>will be taking donations to
-            support Portland’s houseless population.
+            support Portland&apos;s houseless population.
           </p>
           <p>
-            <strong>Community Warehouse</strong> is the Portland area's only
-            furniture bank - providing the comfort and dignity of a furnished
-            home to over 3,000 households annually by collecting donated
-            furniture and household goods and getting them into the hands of our
-            neighbors who need them most.
+            <strong>Community Warehouse</strong> is the Portland area&apos;s
+            only furniture bank - providing the comfort and dignity of a
+            furnished home to over 3,000 households annually by collecting
+            donated furniture and household goods and getting them into the
+            hands of our neighbors who need them most.
           </p>
           <p>
             For more details visit their site{" "}
