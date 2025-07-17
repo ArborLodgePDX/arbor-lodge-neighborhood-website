@@ -5,6 +5,11 @@ import styles from "../styles/Junk.module.css";
 
 const logos = [
   {
+    img: "dofa0aasgq0mtowl9uz4",
+    link: "https://www.communitywarehouse.org/donation-guidelines/",
+    alt: "Community Warehouse",
+  },
+  {
     img: "dwdc7ahmqkjmf8dpgbag",
     link: "https://www.elburritoazteca.com",
     alt: "El Burrito Azteca",
@@ -65,11 +70,7 @@ const logos = [
     link: "https://www.lesschwab.com/",
     alt: "Les Schwab",
   },
-  {
-    img: "ray8ngg0rvxrjgecstye",
-    link: "https://www.dogoodmultnomah.org/",
-    alt: "Do Good Multnomah",
-  },
+
   {
     img: "nnwgulsb2pyxvyjih1cp",
     link: "https://www.flannerysdropbox.com/",
@@ -146,9 +147,15 @@ function junk({ menu, neighborhoods, signup }) {
             generous donations from our sponsors.
           </p>
           <p>
-            This year The Arbor Lodge Shelter run by
-            <strong> Do Good Multnomah </strong>will be taking donations to
+            <strong> Community Warehouse </strong>will be taking donations to
             support Portland’s houseless population.
+          </p>
+          <p>
+            <strong>Community Warehouse</strong> is the Portland area's only
+            furniture bank - providing the comfort and dignity of a furnished
+            home to over 3,000 households annually by collecting donated
+            furniture and household goods and getting them into the hands of our
+            neighbors who need them most.
           </p>
           <p>
             For more details visit their site{" "}
