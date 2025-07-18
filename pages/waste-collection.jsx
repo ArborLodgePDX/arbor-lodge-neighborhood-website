@@ -140,7 +140,7 @@ function junk({ menu, neighborhoods, signup }) {
             The event will be located on North Delaware ave. between North
             Saratoga Street and North Dekum Street.
           </p>
-          <p>It will happen on September 27th between 10:00am and 2:00pm.</p>
+          <p>It will happen on September 27th between 10:00am and 3:00pm.</p>
           <p>
             This event is a collaborative effort by the Arbor Lodge, Kenton,
             Overlook and Piedmont Neighborhood Associations, made possible by
@@ -159,8 +159,8 @@ function junk({ menu, neighborhoods, signup }) {
           </p>
           <p>
             For more details visit their site{" "}
-            <a href="https://www.dogoodmultnomah.org/donate-goods">
-              Do Good Multnomah Donations
+            <a href="https://www.communitywarehouse.org/donation-guidelines/">
+              Community Warehouse
             </a>
           </p>
         </div>
